@@ -57,5 +57,27 @@ public class Photo {
                 '}';
     }
 
+    public String getmTitle() {
+        return mTitle;
+    }
 
+    public String getmAuthor() {
+        return mAuthor;
+    }
+
+    public String getmAuthorID() {
+        return mAuthorID;
+    }
+
+    public String getmLink() {
+        return mLink;
+    }
+
+    public String getmTags() {
+        return mTags;
+    }
+
+    public String getmImage() {
+        return mImage;
+    }
 }
