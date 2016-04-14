@@ -8,11 +8,13 @@
     tools:context="io.github.xuefeng_huang.flickrbrowser.MainActivity"
     android:layout_marginTop="10dp">
 
+    <include android:id="@+id/app_bar" layout="@layout/toolbar"></include>
     <view
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         class="android.support.v7.widget.RecyclerView"
-        android:id="@+id/recycler_view"></view>
+        android:id="@+id/recycler_view"
+        android:layout_below="@id/app_bar"></view>
 
 
 
